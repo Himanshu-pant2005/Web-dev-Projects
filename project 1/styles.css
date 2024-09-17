@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background: #f0f0f0;
+}
+
+.features, .testimonials, .cta, .faq {
+    padding: 40px 20px;
+}
+
+.features h2, .testimonials h2, .cta h2, .faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature, .faq-item {
+    margin-bottom: 20px;
+}
+
+.feature h3, .faq-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    background: #f9f9f9;
+    padding: 20px;
+    border-left: 5px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+blockquote footer {
+    font-style: italic;
+    color: #666;
+}
+
+.btn-secondary {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
