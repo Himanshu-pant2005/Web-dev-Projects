@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+
+        <section class="tasks-section">
+            <h2>Today’s Tasks:</h2>
+            <ul class="tasks-list">
+                <li>
+                    <input type="checkbox" id="task1">
+                    <label for="task1">Task Name</label>
+                    <input type="time" class="due-time" placeholder="Due Time">
+                    <input type="text" class="notes" placeholder="Notes">
+                </li>
+                <!-- Add more tasks as needed -->
+            </ul>
+        </section>
+
+        <section class="tasks-section">
+            <h2>Upcoming Tasks:</h2>
+            <ul class="tasks-list">
+                <li>
+                    <input type="checkbox" id="task2">
+                    <label for="task2">Task Name</label>
+                    <input type="date" class="due-date" placeholder="Due Date">
+                    <input type="text" class="notes" placeholder="Notes">
+                </li>
+                <!-- Add more tasks as needed -->
+            </ul>
+        </section>
+
+        <section class="tasks-section">
+            <h2>Completed Tasks:</h2>
+            <ul class="tasks-list">
+                <li>
+                    <input type="checkbox" id="task3" checked>
+                    <label for="task3">Task Name</label>
+                    <input type="date" class="completion-date" placeholder="Completion Date">
+                    <input type="text" class="notes" placeholder="Notes">
+                </li>
+                <!-- Add more tasks as needed -->
+            </ul>
+        </section>
+
+        <section class="notes-section">
+            <h2>Notes:</h2>
+            <textarea class="notes-textarea" placeholder="Write your notes here..."></textarea>
+        </section>
+
+        <footer>
+            <p>Priority Legend: 🟢 High | 🟡 Medium | 🟠 Low</p>
+            <p>Status Legend: ⬜ Not Started | 🟨 In Progress | 🟢 Completed</p>
+        </footer>
+    </div>
+</body>
+</html>
